@@ -1,6 +1,7 @@
 load("bubbleSort.js");
 load("selectionSort.js");
 load("insertionSort.js");
+load("shellSort.js");
 
 function CArray(numElements) {
    this.dataStore = [];
@@ -14,6 +15,9 @@ function CArray(numElements) {
    this.bubbleSort = bubbleSort;
    this.selectionSort = selectionSort;
    this.insertionSort = insertionSort;
+   this.gaps = [5,3,1];
+   this.setGaps = setGaps;
+   this.shellsort = shellsort;
 
    for (var i = 0; i < numElements; ++i) {
       this.dataStore[i] = i;
@@ -52,4 +56,8 @@ function swap(arr, index1, index2) {
    var temp = arr[index1];
    arr[index1] = arr[index2];
    arr[index2] = temp;
+}
+
+function setGaps(arr) {
+	this.gaps = arr;
 }
