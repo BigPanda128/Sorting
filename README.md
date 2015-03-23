@@ -3,4 +3,4 @@ Ryan Postma
 CMP344
 sorting code from chapter 12
 
-code that sorts out the code. run the test code with d8, go into test code to change what sort method it uses. run each of the time programs with d8 to see them in action 
+code that sorts out the code. Use d8 to run all code with test in its name. you can also go inside of testsort to change between the function for each of the three dumb sort methods. lastly you can run looptime to see the time fucntion in action. 
