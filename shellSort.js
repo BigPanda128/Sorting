@@ -6,7 +6,7 @@ function shellsort() {
                          this.dataStore[j-this.gaps[g]] > temp; 
               j -= this.gaps[g]) {
             this.dataStore[j] = this.dataStore[j - this.gaps[g]];
-	    print(this.toString());
+	    //print(this.toString());
          }
          this.dataStore[j] = temp;
       }
