@@ -1,5 +1,5 @@
 load("carray.js")
-var nums = new CArray(10);
+var nums = new CArray(100);
 nums.setData();
 print("Before Shellsort: \n");
 print(nums.toString());
